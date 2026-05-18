@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./CostDisplay.module.css";
-import NumericDisplay from "../NumericDisplay/NumericDisplay";
+import NumericDisplay from "../NumericDisplay/NumericDisplay.jsx";
 
 const CostDisplay = (
     { cost }, //cost display content

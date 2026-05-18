@@ -1,44 +1,40 @@
 {
-    "name": "react-endless-simple-idle-game",
-    "version": "1.8.0",
-    "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^6.9.1",
-        "@testing-library/react": "^16.3.2",
-        "@testing-library/user-event": "^14.6.1",
-        "ajv": "^8.20.0",
-        "prop-types": "^15.8.1",
-        "react": "^19.2.6",
-        "react-circular-progressbar": "^2.2.0",
-        "react-dom": "^19.2.6",
-        "react-scripts": "5.0.1",
-        "web-vitals": "^5.2.0"
-    },
-    "prettier": {
-        "singleQuote": true
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "endlessgame",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "ajv": "^8.20.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.6",
+    "react-circular-progressbar": "^2.2.0",
+    "react-dom": "^19.2.6",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^5.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^10.4.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "jiti": "^2.7.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.59.4",
+    "vite": "^8.0.13"
+  }
 }

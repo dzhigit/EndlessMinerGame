@@ -1,5 +1,5 @@
-import CostDisplay from "./components/CostDisplay/CostDisplay";
-import NumericDisplay from "./components/NumericDisplay/NumericDisplay";
+import CostDisplay from "./components/CostDisplay/CostDisplay.js";
+import NumericDisplay from "./components/NumericDisplay/NumericDisplay.js";
 import "./App.css";
 import { useState, useEffect, useCallback } from "react";
 import {
